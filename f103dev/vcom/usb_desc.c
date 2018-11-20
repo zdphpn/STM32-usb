@@ -24,7 +24,7 @@ const u8 Virtual_Com_Port_DeviceDescriptor[] =
     0x00,
     0x02,   /* bcdUSB = 2.00 */
     0x02,   /* bDeviceClass: CDC */
-    0x00,   /* bDeviceSubClass */
+    0x02,   /* bDeviceSubClass */
     0x00,   /* bDeviceProtocol */
     0x40,   /* bMaxPacketSize0 */
     0x83,
